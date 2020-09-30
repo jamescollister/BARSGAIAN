@@ -4,7 +4,7 @@ $(document).ready(function() {
 	
   var STACKED = false;  // `false` for individual bars, `true` for stacked bars
 
-  var TITLE = 'English Learners by Select School Districts in Connecticut, 2018-19';
+  var TITLE = 'English Learners by Select School Districts in UK, 2018-19';
 
   var LABELS = 'district';  // Column to define 'bucket' names on x-axis (for vertical column chart) or y-axis (for horizontal bar chart)
 
@@ -17,7 +17,7 @@ $(document).ready(function() {
     {
       column: 'learner',
       name: 'Learners',
-      color: 'blue'
+      color: 'red'
     }
   ];
 
